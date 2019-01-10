@@ -1,6 +1,6 @@
 <template>
   <div>
-    2323232
+    Home
   </div>
 </template>
 
