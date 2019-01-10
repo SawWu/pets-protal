@@ -1,6 +1,8 @@
 <template>
   <div class="map-page-container">
-    <el-amap class="map"></el-amap>
+    <el-amap class="map">
+
+    </el-amap>
   </div>
 </template>
 

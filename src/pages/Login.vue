@@ -7,7 +7,6 @@
           placeholder="请输入用户名"
           required
       />
-
       <van-field
           v-model="password"
           type="password"
