@@ -13,7 +13,7 @@
       if(Cookies.get('name')){
         this.$router.push('/home');
       }else{
-        this.$router.push('/home');
+        this.$router.push('/login');
       }
 
     }
