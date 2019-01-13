@@ -10,6 +10,9 @@
   export default {
     name: 'Home',
     data: () => ({}),
+    created() {
+      //console.log(qiniu)
+    }
   }
 </script>
 <style lang="less" scoped>

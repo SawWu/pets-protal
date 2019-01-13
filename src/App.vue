@@ -10,11 +10,12 @@
   export default {
     name: 'App',
     beforeCreate() {
-      if(Cookies.get('name')){
-        this.$router.push('/home');
-      }else{
-        this.$router.push('/login');
-      }
+      this.$router.push('/home');
+      // if(Cookies.get('name')){
+      //   this.$router.push('/home');
+      // }else{
+      //   this.$router.push('/login');
+      // }
     }
   }
 </script>
